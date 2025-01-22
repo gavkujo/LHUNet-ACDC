@@ -1,9 +1,9 @@
 #!/bin/sh
 
-DATASET_PATH=/media/say26747/EC2426FA2426C782/LHUNET/DATASET_Acdc
+DATASET_PATH=./DATASET_Acdc
 
 export PYTHONPATH=.././
-export RESULTS_FOLDER=/home/say26747/Desktop/TEST
+export RESULTS_FOLDER=./TEST
 export lhunet_preprocessed="$DATASET_PATH"/lhunet_raw/lhunet_raw_data/Task01_ACDC
 export lhunet_raw_data_base="$DATASET_PATH"/lhunet_raw
 
