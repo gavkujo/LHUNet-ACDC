@@ -25,6 +25,14 @@ from batchgenerators.transforms import (
     MirrorTransform,
     Compose,
 )
+'''
+from batchgenerators.transforms import (
+    SpatialTransform,
+    GammaTransform,
+    MirrorTransform,
+    Compose,
+)
+'''
 from batchgenerators.transforms.utility_transforms import (
     RemoveLabelTransform,
     RenameTransform,
