@@ -15,7 +15,7 @@ from torch.autograd.function import once_differentiable
 
 import sys
 sys.path.append('/opt/conda/lib/python3.10/site-packages')
-import D3D
+import d3d
 
 class DeformConvFunction(Function):
     @staticmethod
