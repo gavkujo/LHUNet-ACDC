@@ -21,7 +21,8 @@ from skimage.morphology.binary import (
     binary_opening,
 )
 import numpy as np
-from batchgenerators.transforms import AbstractTransform
+#from batchgenerators.transforms import AbstractTransform
+from batchgenerators.transforms.abstract_transforms import AbstractTransform
 
 
 class RemoveRandomConnectedComponentFromOneHotEncodingTransform(AbstractTransform):
