@@ -12,15 +12,19 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
-from batchgenerators.dataloading import MultiThreadedAugmenter
-from batchgenerators.transforms import (
+from batchgenerators.dataloading.multi_threaded_augmenter import MultiThreadedAugmenter
+from batchgenerators.transforms.channel_selection_transforms import (
     DataChannelSelectionTransform,
     SegChannelSelectionTransform,
-    SpatialTransform,
-    GammaTransform,
-    MirrorTransform,
-    Compose,
+    #SpatialTransform,
+    #GammaTransform,
+    #MirrorTransform,
+    #Compose,
 )
+from batchgenerators.transforms.spatial_transforms import SpatialTransform, MirrorTransform
+from batchgenerators.transforms.color_transforms import GammaTransform
+from batchgenerators.transforms.abstract_transforms import Compose
+
 from batchgenerators.transforms.color_transforms import (
     BrightnessMultiplicativeTransform,
     ContrastAugmentationTransform,
