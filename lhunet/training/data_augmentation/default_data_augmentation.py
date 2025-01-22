@@ -17,7 +17,7 @@ from copy import deepcopy
 
 import numpy as np
 from batchgenerators.dataloading.multi_threaded_augmenter import MultiThreadedAugmenter
-from batchgenerators.transforms import (
+from batchgenerators.transforms.channel_selection_transforms import (
     DataChannelSelectionTransform,
     SegChannelSelectionTransform,
     SpatialTransform,
