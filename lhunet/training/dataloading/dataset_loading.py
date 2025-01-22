@@ -18,7 +18,7 @@ from batchgenerators.augmentations.utils import (
     pad_nd_image,
 )
 import numpy as np
-from batchgenerators.dataloading import SlimDataLoaderBase
+from batchgenerators.dataloading.data_loader import SlimDataLoaderBase
 from multiprocessing import Pool
 
 from lhunet.configuration import default_num_threads
