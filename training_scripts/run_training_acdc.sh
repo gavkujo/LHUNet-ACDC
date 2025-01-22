@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo $(which python)
 DATASET_PATH=../DATASET_Acdc
 
 export PYTHONPATH=.././
