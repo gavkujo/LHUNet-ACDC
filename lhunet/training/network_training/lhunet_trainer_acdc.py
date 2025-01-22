@@ -70,7 +70,7 @@ class lhunet_trainer_acdc(Trainer_acdc):
             deterministic,
             fp16,
         )
-        self.max_num_epochs = 1000
+        self.max_num_epochs = 60
         self.initial_lr = 0.003  ####################################### YOUSEF HERE
         self.deep_supervision_scales = None
         self.ds_loss_weights = None
