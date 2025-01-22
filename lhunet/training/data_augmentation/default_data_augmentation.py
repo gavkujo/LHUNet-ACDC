@@ -16,7 +16,7 @@ import os
 from copy import deepcopy
 
 import numpy as np
-from batchgenerators.dataloading.multi_threaded_augmenter import MultiThreadedAugmenter
+from batchgenerators.dataloading.multi_threaded_augmenter import MultiThreadedAugmenter, Compose
 from batchgenerators.transforms.channel_selection_transforms import (
     DataChannelSelectionTransform,
     SegChannelSelectionTransform,
@@ -25,13 +25,8 @@ from batchgenerators.transforms.channel_selection_transforms import (
     #MirrorTransform,
     #Compose,
 )
-
-from batchgenerators.transforms import (
-    SpatialTransform,
-    GammaTransform,
-    MirrorTransform,
-    Compose,
-)
+from batchgenerators.transforms.spatial_transforms import SpatialTransform, MirrorTransform
+from batchgenerators.transforms.color_transforms import GammaTransform
 
 from batchgenerators.transforms.utility_transforms import (
     RemoveLabelTransform,
