@@ -20,19 +20,19 @@ from batchgenerators.dataloading.multi_threaded_augmenter import MultiThreadedAu
 from batchgenerators.transforms.channel_selection_transforms import (
     DataChannelSelectionTransform,
     SegChannelSelectionTransform,
-    SpatialTransform,
-    GammaTransform,
-    MirrorTransform,
-    Compose,
+    #SpatialTransform,
+    #GammaTransform,
+    #MirrorTransform,
+    #Compose,
 )
-'''
+
 from batchgenerators.transforms import (
     SpatialTransform,
     GammaTransform,
     MirrorTransform,
     Compose,
 )
-'''
+
 from batchgenerators.transforms.utility_transforms import (
     RemoveLabelTransform,
     RenameTransform,
