@@ -27,6 +27,7 @@ from batchgenerators.transforms.channel_selection_transforms import (
 )
 from batchgenerators.transforms.spatial_transforms import SpatialTransform, MirrorTransform
 from batchgenerators.transforms.color_transforms import GammaTransform
+from batchgenerators.transforms.abstract_transforms import Compose
 
 from batchgenerators.transforms.utility_transforms import (
     RemoveLabelTransform,
